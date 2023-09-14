@@ -1,7 +1,7 @@
 {
     "profile": {
         "rol": "Desarrollador Front End",
-        "description": "Diseñador gráfico con experiencia en el desarrollo web, frontend, backend y análisis BI, con experiencia también en las áreas de mercadotecnia, marketing digital y publicidad con una trayectoria de más de 15 años y participación en distintos sectores de la industria como retail, materias primas, educación e inmobiliario por nombrar algunos."
+        "description": "Diseñador gráfico con experiencia en el desarrollo web, frontend, backend y análisis BI, con experiencia también en las áreas de mercadotecnia, marketing digital y publicidad con una trayectoria de más de 15 años y participación en distintos sectores de la industria como retail, materias primas, educación e inmobiliario por nombrar algunos.<br>Especialista en estrategias de implementación enfocadas a los ambientes web como herramienta de impulso y publicidad para las áreas de marketing y publicidad, utilizando las tecnologías de vanguardia disponibles en el mundo del internet."
     },
     "experience":{
         "first-job-title": "Freelance Front End Developer",
@@ -19,5 +19,23 @@
         "last-job-title": "Grupo Pochteca - Webmaster",
         "last-job-dates": "Agosto 2009 - Junio 2012",
         "last-job-description": "Desarrollador y Administrador de los diferentes sitios de la Compañía, incluida la tienda virtual para venta y comercialización de productos.<br />Rediseño y restructuración de sitios corporativos de la compañía, puesta en marcha de tienda en línea e integración con redes sociales, creación y administración de nuevo sitio de la compañía construida enteramente en coldfusion."
+    },
+    "projects":{
+        "first-project-title": "Sitio Grupo VII",
+        "first-project-description": "Sitio desarrollado para el grupo de Boy Scouts de México <strong>Grupo VII</strong><br />Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda. Respaldado con un CMS propio que le permite al cliente administrar los contenidos del mismo sitio.",
+        "second-project-title": "Sitio Roland Philipps",
+        "second-project-description": "Micro sitio desarrollado para el grupo de Boy Scouts de México sobre Roland Philipps<BR />Micro sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda. Respaldado con un CMS propio que le permite al cliente administrar los contenidos del mismo sitio.",
+        "third-project-title": "Sitio CapitalFlow",
+        "third-project-description": "Sitio desarrollado para la empresa de ciclopistas Capital Flow<BR />Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda. Respaldado con un CMS propio que le permite al cliente administrar los contenidos del mismo sitio.",
+        "forth-project-title": "Landingpage Mira Soluciones",
+        "forth-project-description": "Landingpage desarrollado para la empresa Mira Soluciones de México<br />Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda.",
+        "fifth-project-title": "Landingpage Gestor Empresarial México",
+        "fifth-project-description": "Landingpage desarrollado para la empresa de asesoría Gestor Empresarial<br />Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda. Respaldado con un CMS básico propio que le permite al cliente administrar algunos de los contenidos del mismo sitio.",
+        "sixth-project-title": "Landingpage Chapstilettos",
+        "sixth-project-description": "Landingpage desarrollado para el cliente Chasptilettos<br />Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda.",
+        "seventh-project-title": "Sitio Oncologuia",
+        "seventh-project-description": "Sitio desarrollado para la empresa Oncologuía<br />Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda. Respaldado con un CMS propio que le permite al cliente administrar los contenidos del mismo sitio.",
+        "eighth-project-title": "Sitio Desarrollarte",
+        "eighth-project-description": "Sitio desarrollado para la empresa Desarrollarte<br />Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda. Respaldado con un CMS propio que le permite al cliente administrar los contenidos del mismo sitio."
     }
 }

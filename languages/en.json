@@ -1,7 +1,7 @@
 {
     "profile": {
         "rol": "Front End Developer",
-        "description": "A bachelor degree in Graphic Design with experience in web development including frontend, backend and business intelligence analysis also with more than 15 years of proven experience in many industry sectors such as retail, education, raw materials and real state to name a few. Experience also in marketing, digital marketing and advertising areas."
+        "description": "A bachelor degree in Graphic Design with experience in web development including frontend, backend and business intelligence analysis also with more than 15 years of proven experience in many industry sectors such as retail, education, raw materials and real state to name a few. Experience also in marketing, digital marketing and advertising areas.<br>Specialist on implementation strategies focused on web environments as a promotion and advertising tool for the marketing and advertising areas, using the cutting-edge technologies available in the world of the Internet."
     },
     "experience":{
         "first-job-title": "Freelance Front End Developer",
@@ -19,5 +19,23 @@
         "last-job-title": "Grupo Pochteca - Webmaster",
         "last-job-dates": "August 2009 - June 2012",
         "last-job-description": "Developer and Administrator of the different sites of the Company, including the virtual store for sale and marketing of products. Redesign and restructuring of corporate sites of the company, start-up of online store and integration with social networks, creation and administration of new site of the company built entirely in coldfusion."
+    },
+    "projects":{
+        "first-project-title": "Website Grupo VII",
+        "first-project-description": "Site developed for the Boy Scouts of Mexico Group <strong>Group VII</strong><br />Complete website using the most current standards of web technologies according to the rules of www.w3.org, pure HTML5 with CSS 3 and Javascript ES6, the site has SEO optimization for search engines. Backed with its own CMS that allows the client to manage the contents of the same site.",
+        "second-project-title": "Website Roland Philipps",
+        "second-project-description": "Micro site developed for the Boy Scouts of Mexico group on Roland Philipps<br />Complete micro website using the most current standards of web technologies according to the rules of www.w3.org, pure HTML5 with CSS 3 and Javascript ES6, The site has also SEO optimization for search engines. Backed with its own CMS that allows the client to manage the contents of the same site.",
+        "third-project-title": "Website CapitalFlow",
+        "third-project-description": "Site developed for the eco park company Capital Flow<br />Complete website using the most current standards of web technologies according to the rules of www.w3.org, pure HTML5 with CSS 3 and Javascript ES6, the site has optimization SEO for search engines. Backed with its own CMS that allows the client to manage the contents of the same site.",
+        "forth-project-title": "Landingpage Mira Soluciones",
+        "forth-project-description": "Landingpage developed for the company Mira Soluciones de México<br />Complete website using the most current standards of web technologies according to the rules of www.w3.org, pure HTML5 with CSS 3 and Javascript ES6, the site has optimization SEO for search engines.",
+        "fifth-project-title": "Landingpage Gestor Empresarial México",
+        "fifth-project-description": "Landingpage developed for the consulting company Gestor Empresarial<br />Complete website using the most current standards of web technologies according to the rules of www.w3.org, pure HTML5 with CSS 3 and Javascript ES6, the site has optimization SEO for search engines. Backed with its own basic CMS that allows the client to manage some of the content of the same site.",
+        "sixth-project-title": "Landingpage Chapstilettos",
+        "sixth-project-description": "Landingpage developed for the Chasptilettos client<br />Complete website using the most current standards of web technologies according to the rules of www.w3.org, pure HTML5 with CSS 3 and Javascript ES6, the site has SEO optimization for engines search.",
+        "seventh-project-title": "Website Oncologuia",
+        "seventh-project-description": "Site developed for the company Oncologuía<br />Complete website using the most current standards of web technologies according to the rules of www.w3.org, pure HTML5 with CSS 3 and Javascript ES6, the site has SEO optimization for engines search. Backed with its own CMS that allows the client to manage the contents of the same site.",
+        "eighth-project-title": "Website Desarrollarte",
+        "eighth-project-description": "Site developed for the company Desarrollorte<br />Complete website using the most current standards of web technologies according to the rules of www.w3.org, pure HTML5 with CSS 3 and Javascript ES6, the site has SEO optimization for engines search. Backed with its own CMS that allows the client to manage the contents of the same site."
     }
 }

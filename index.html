@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img src="assets/images/flags/mx.svg" alt="spanish" />
+        </div>
+        <div class="flags__item" data-language="en">
+          <img src="assets/images/flags/us.svg" alt="english" />
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+        <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+        <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+        <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- PROFILE CARD -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="assets/images/profile.jpg" alt="">
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Armando Salinas Elizondo</h2>
+            <p class="card__subtitle no-margin" data-section="profile" data-value="rol">Desarrollo Web y FrontEnd</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:armando.salinase@gmail.com">armando.salinase@gmail.com</a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:asalinasweb@hotmail.com">asalinasweb@hotmail.com</a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:525563181718">+52 55 63181718</a>
+            </div>
+            <p class="card__text" data-section="profile" data-value="description">
+              Diseñador gráfico con experiencia en el desarrollo web, frontend, backend y análisis BI, con experiencia también en las áreas de mercadotecnia y publicidad con una trayectoria de más de 15 años y participación en distintos sectores de la industria como retail, materias primas, educación e inmobiliario por nombrar algunos.
+            </p>
+          </div>
+        </article>
+        <!-- EXPERIENCIA -->
+        <article class="card card--experience">
+          <h2 class="card__title">Experiencia</h2>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience__image" />
+            <div class="experience__info">
+              <p 
+                class="experience__time"
+                data-section="experience" 
+                data-value="first-job-dates"
+              >
+                Octubre 2022 - Actual
+              </p>
+              <h3 
+                class="experience__job"
+                data-section="experience" 
+                data-value="first-job-title"
+              >
+                Freelance Front End Developer</h3>
+              <p 
+                class="experience__description"
+                data-section="experience" 
+                data-value="first-job-description"
+              >
+                Administración de distintos proyectos en los que estoy involucrado en distintas parte de los procesos, desde la planeación, administración, diseño e implementación utilizando distintas tecnologías como HTML, CSS y Javascript hasta Framewroks como React y Angular.</p>
+            </div>
+          </div>
+
+
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience__image" />
+            <div class="experience__info">
+              <p 
+                class="experience__time"
+                data-section="experience" 
+                data-value="second-job-dates"
+              >
+                Mayo 2022 - Octubre 2022
+              </p>
+              <h3 
+                class="experience__job"
+                data-section="experience" 
+                data-value="second-job-title"
+              >
+                IECM - Analista Web Sr.</h3>
+              <p 
+                class="experience__description"
+                data-section="experience" 
+                data-value="second-job-description"
+              >
+              Analizar e implementar la nueva plataforma en línea del Instituto para la atención de la participación ciudadana.<br />Análisis de la nueva plataforma del instituto como apoyo herramienta de apoyo a la ciudadanía coordinación con el equipo interno de sistemas para le implementación y modularización de la plataforma y seguimiento ordenado y lógico del desempeño de la misma.</p>
+            </div>
+          </div>
+
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience__image" />
+            <div class="experience__info">
+              <p 
+                class="experience__time"
+                data-section="experience" 
+                data-value="third-job-dates"
+              >
+                Agosto 2012 - Junio 2020
+              </p>
+              <h3 
+                class="experience__job"
+                data-section="experience" 
+                data-value="third-job-title"
+              >
+              Grupo Axo Desarrollo y BI</h3>
+              <p 
+                class="experience__description"
+                data-section="experience" 
+                data-value="third-job-description"
+              >
+              Desarrollador y administrador de los diferentes sistemas utilizados en la compañía.<br />Rediseño y restructuración de sistemas CRM para las distintas marcas de la compañía, construcción de distintos tipos de reporte de ventas y a acceso a tiendas, actualización y mejora de portal interno de seguimiento de ventas con clientes, instalación y administración de 3 servidores Linux Centos como emisores de reportes y como portal de ventas para usuarios interno, puesta en marcha ser sistema de e-learning moodle en Centos.</p>
+            </div>
+          </div>
+
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience__image" />
+            <div class="experience__info">
+              <p 
+                class="experience__time"
+                data-section="experience" 
+                data-value="last-job-dates"
+              >
+                Agosto 2009 - Junio 2012
+              </p>
+              <h3 
+                class="experience__job"
+                data-section="experience" 
+                data-value="last-job-title"
+              >
+              Grupo Pochteca Webmaster</h3>
+              <p 
+                class="experience__description"
+                data-section="experience" 
+                data-value="last-job-description"
+              >
+              Desarrollador y Administrador de los diferentes sitios de la Compañía, incluida la tienda virtual para venta y comercialización de productos.<br />Rediseño y restructuración de sitios corporativos de la compañía, puesta en marcha de tienda en línea e integración con redes sociales, creación y administración de nuevo sitio de la compañía construida enteramente en coldfusion.</p>
+            </div>
+          </div>
+
+
+
+        </article>
+        <!-- HOBBIES -->
+        <article class="card card--jobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/images/hobbie.jpg" alt="Man on bike">
+          </div>
+          <h3 class="hobbie__title">Coleccionismo</h3>
+          <p class="card__text">Desde temprana edad el coleccionismo ha sido parte de mi vida, he coleccionado a través de los años distintos tipos de artículos relacionados a la fantasía, ciencia ficción y los personajes de las tiras cómicas del extranjero así también como nacionales</p>
+
+
+          <div class="card__image-container">
+            <img src="assets/images/hobbie2.jpg" alt="Man on bike">
+          </div>
+          <h3 class="hobbie__title">Lectura de historia</h3>
+          <p class="card__text">A la par del coleccionismo también he desarrollado un gusto por leer sobre la historia no sólamente de mi país natal México sino también de otros paises del reste del mundo, parte de esta incluye historia antigua, medieval y moderna, con temas predilectos como la histroia del viejo imperio Romano y conflictos bélicos como la Segunda Guerra Mundial.</p>
+
+        </article>
+      </section>
+      <section class="column column-right">
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+          
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Javascript</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">PHP</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Angular</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title">Business Intelligence</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Pentaho DI</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Reporting Services</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Talend Data Integration</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title">Design</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Photoshop</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Illustrator</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Corel Draw</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Figma</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project_1.jpg" alt="landing page" class="card__image" />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">Javascript</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">Php</span>
+            </div>
+            <h2 class="card__title">Sitio Grupo VII</h2>
+            <p class="card__text">Sitio desarrollado para el grupo de Boy Scouts de México "Grupo VII"</p>
+            <p class="card__text">Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda. Respaldado con un CMS propio que le permite al cliente administrar los contenidos del mismo sitio.</p>
+            <div class="buttons">
+              <a href="https://grupovii.org" target="_blank" class="button button--primary">Sitio</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project_2.jpg" alt="landing page" class="card__image" /><br />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">Javascript</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">Php</span>
+            </div>
+            <h2 class="card__title">Sitio Roland Philipps</h2>
+            <p class="card__text">Micro sitio desarrollado para el grupo de Boy Scouts de México sobre Roland Philipps</p>
+            <p class="card__text">Micro sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda. Respaldado con un CMS propio que le permite al cliente administrar los contenidos del mismo sitio.</p>
+            <div class="buttons">
+              <a href="https://grupovii.org/rolandphilipps/" target="_blank" class="button button--primary">Sitio</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project_3.jpg" alt="landing page" class="card__image" /><br />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">Javascript</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">Php</span>
+            </div>
+            <h2 class="card__title">Sitio CapitalFlow</h2>
+            <p class="card__text">Sitio desarrollado para la empresa de ciclopistas Capital FLow </p>
+            <p class="card__text">Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda. Respaldado con un CMS propio que le permite al cliente administrar los contenidos del mismo sitio.</p>
+            <div class="buttons">
+              <a href="https://capitalflow.mx/" target="_blank" class="button button--primary">Sitio</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project_4.jpg" alt="landing page" class="card__image" /><br />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">Javascript</span>
+              <span class="project__tag">CSS</span>
+            </div>
+            <h2 class="card__title">Landingpage Mira Soluciones</h2>
+            <p class="card__text">Landingpage desarrollado para la empresa Mira Soluciones de México</p>
+            <p class="card__text">Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda.</p>
+            <div class="buttons">
+              <a href="https://mirasoluciones.com.mx/" target="_blank" class="button button--primary">Sitio</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project_5.jpg" alt="landing page" class="card__image" /><br />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">Javascript</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">Php</span>
+            </div>
+            <h2 class="card__title">Landingpage Gestor Empresarial México</h2>
+            <p class="card__text">Landingpage desarrollado para la empresa de asesoría Gestor Empresarial</p>
+            <p class="card__text">Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda. Respaldado con un CMS básico propio que le permite al cliente administrar algunos de los contenidos del mismo sitio.</p>
+            <div class="buttons">
+              <a href="https://gestorempresarialmexico.com/" target="_blank" class="button button--primary">Sitio</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project_6.jpg" alt="landing page" class="card__image" /><br />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">Javascript</span>
+              <span class="project__tag">CSS</span>
+            </div>
+            <h2 class="card__title">Landingpage Chapstilettos</h2>
+            <p class="card__text">Landingpage desarrollado para el cliente Chasptilettos</p>
+            <p class="card__text">Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda.</p>
+            <div class="buttons">
+              <a href="https://chapstilettos.com/" target="_blank" class="button button--primary">Sitio</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project_7.jpg" alt="landing page" class="card__image" /><br />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">Javascript</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">Php</span>
+            </div>
+            <h2 class="card__title">Sitio Oncologuia</h2>
+            <p class="card__text">Sitio desarrollado para la empresa Oncologuía</p>
+            <p class="card__text">Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda. Respaldado con un CMS propio que le permite al cliente administrar los contenidos del mismo sitio.</p>
+            <div class="buttons">
+              <a href="https://oncologuia.com/" target="_blank" class="button button--primary">Sitio</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project_8.jpg" alt="landing page" class="card__image" /><br />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">Javascript</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">Php</span>
+            </div>
+            <h2 class="card__title">Sitio Desarrollarte</h2>
+            <p class="card__text">Sitio desarrollado para la empresa Desarrollarte</p>
+            <p class="card__text">Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda. Respaldado con un CMS propio que le permite al cliente administrar los contenidos del mismo sitio.</p>
+            <div class="buttons">
+              <a href="https://desarrollarte.mx/" target="_blank" class="button button--primary">Sitio</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+
+
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

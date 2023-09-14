@@ -1,0 +1,23 @@
+{
+    "profile": {
+        "rol": "Front End Developer",
+        "description": "A bachelor degree in Graphic Design with experience in web development including frontend, backend and business intelligence analysis also with more than 15 years of proven experience in many industry sectors such as retail, education, raw materials and real state to name a few. Experience also in marketing, digital marketing and advertising areas."
+    },
+    "experience":{
+        "first-job-title": "Freelance Front End Developer",
+        "first-job-dates": "October 2022 - Current",
+        "first-job-description": "Administration of different projects in which I am involved in different parts of the processes, from planning, administration, design and implementation using different technologies such as HTML, CSS and Javascript to Framewroks such as React and Angular.",
+
+        "second-job-title": "IECM - Web Sr Analyst",
+        "second-job-dates": "May 2022 - October 2022",
+        "second-job-description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+
+        "third-job-title": "Grupo Axo - Development & BI",
+        "third-job-dates": "August 2012 - June 2020",
+        "third-job-description": "Developer and administrator of the different systems used in the company. Redesign and restructuring of CRM systems for the different brands of the company, construction of different types of sales report and access to stores, updating and improvement of internal portal for monitoring sales with customers, installation and administration of 3 Linux Centos servers as issuers of reports and as a sales portal for internal users, implementation to be moodle e-learning system on Centos.",
+
+        "last-job-title": "Grupo Pochteca - Webmaster",
+        "last-job-dates": "August 2009 - June 2012",
+        "last-job-description": "Developer and Administrator of the different sites of the Company, including the virtual store for sale and marketing of products. Redesign and restructuring of corporate sites of the company, start-up of online store and integration with social networks, creation and administration of new site of the company built entirely in coldfusion."
+    }
+}

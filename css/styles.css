@@ -349,6 +349,10 @@ img {
     color: var(--primary-color);
 }
 
+.resume__text {
+    font-size: .8rem;
+}
+
 .icon {
     margin-right: 1em;
 }

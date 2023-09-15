@@ -37,5 +37,20 @@
         "seventh-project-description": "Site developed for the company Oncologuía<br />Complete website using the most current standards of web technologies according to the rules of www.w3.org, pure HTML5 with CSS 3 and Javascript ES6, the site has SEO optimization for engines search. Backed with its own CMS that allows the client to manage the contents of the same site.",
         "eighth-project-title": "Website Desarrollarte",
         "eighth-project-description": "Site developed for the company Desarrollorte<br />Complete website using the most current standards of web technologies according to the rules of www.w3.org, pure HTML5 with CSS 3 and Javascript ES6, the site has SEO optimization for engines search. Backed with its own CMS that allows the client to manage the contents of the same site."
+    },
+    "hobbies":{
+        "first-hobbie-tittle": "Collector fan",
+        "first-hobbie-description": "From an early age collecting has been part of my life, I have collected over the years different types of items related to fantasy, science fiction and the characters of comic strips from abroad as well as national.",
+        "second-hobbie-tittle": "World's History",
+        "second-hobbie-description": "Along with collecting stuff I have also developed a taste for reading about the history not only of my native country Mexico but also from another countries of the world, part of this includes ancient, medieval and modern history, with favorite themes such as the history of the old Roman Empire and war conflicts such as World War II."
+    },
+    "dictionary":{
+        "resume-title": "Resume",
+        "resume-spanish-title": "Spanish",
+        "resume-english-title": "English",
+        "social-title": "Social Networks & Contact",
+        "work-experience-title": "Work and Related Experience",
+        "experience-title": "Years of experience",
+        "site-button-title": "Website"
     }
 }

@@ -37,5 +37,20 @@
         "seventh-project-description": "Sitio desarrollado para la empresa Oncologuía<br />Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda. Respaldado con un CMS propio que le permite al cliente administrar los contenidos del mismo sitio.",
         "eighth-project-title": "Sitio Desarrollarte",
         "eighth-project-description": "Sitio desarrollado para la empresa Desarrollarte<br />Sitio web completo utilizando los estándares más actuales de tecnologías web según las reglas de la www.w3.org, HTML5 puro con CSS 3 y Javascript ES6, el sitio cuenta con optimización de SEO para motores de búsqueda. Respaldado con un CMS propio que le permite al cliente administrar los contenidos del mismo sitio."
+    },
+    "hobbies":{
+        "first-hobbie-tittle": "Coleccionismo",
+        "first-hobbie-description": "Desde temprana edad el coleccionismo ha sido parte de mi vida, he coleccionado a través de los años distintos tipos de artículos relacionados a la fantasía, ciencia ficción y los personajes de las tiras cómicas del extranjero así también como nacionales",
+        "second-hobbie-tittle": "Lectura de historia",
+        "second-hobbie-description": "A la par del coleccionismo también he desarrollado un gusto por leer sobre la historia no sólamente de mi país natal México sino también de otros paises del reste del mundo, parte de esta incluye historia antigua, medieval y moderna, con temas predilectos como la histroia del viejo imperio Romano y conflictos bélicos como la Segunda Guerra Mundial."
+    },
+    "dictionary":{
+        "resume-title": "Curriculum Vitae",
+        "resume-spanish-title": "Español",
+        "resume-english-title": "Inglés",
+        "social-title": "Redes Sociales | Contacto",
+        "work-experience-title": "Experiencia",
+        "experience-title": "Años de experiencia",
+        "site-button-title": "Sitio"
     }
 }
